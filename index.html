@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Random Draw</title>
 
     <link rel="stylesheet" href="./css/style.css">
     <script defer src="js/script.js"></script>
 </head>
 <body>
+    <label for="input" class="prompt">Add to the list:</label>
+    <input type="text" id="input" class="input">
+
+    <button class="submit" onclick="addToArray()">Submit</button>
+    <button class="rand" onclick="randomizeArray()">Randomize</button>
     
+    <div id="list"></div>
 </body>
 </html>
