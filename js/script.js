@@ -24,7 +24,8 @@ function randomizeArray() {
     let rand = Math.floor(Math.random() * INPUTS.length);
     let inputsLength = INPUTS.length - 1;
     if (INPUTS[inputsLength] != undefined) {
-        alert(INPUTS[rand]);
+        // alert(INPUTS[rand]);
+        alert(`I choose ${INPUTS[rand]}.`);
         // clear array
         // for (let i = 0; i < marker; i++) {
         //     INPUTS[i] = undefined;
