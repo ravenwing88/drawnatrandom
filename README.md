@@ -1,2 +1,2 @@
-# basic-boilerplate
-Contains a main html page, which is linked to a main css stylesheet and a main js script, and folders for css, js, and images.
+# Drawn at Random
+Takes inputs from the user and makes an array of them and lists them. Then picks one at random and clears the array and the list.
